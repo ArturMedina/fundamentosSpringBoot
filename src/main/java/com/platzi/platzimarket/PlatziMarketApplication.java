@@ -1,13 +1,13 @@
-package com.fundamentos.springboot.fundamentos;
+package com.platzi.platzimarket;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FundamentosApplication {
+public class PlatziMarketApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FundamentosApplication.class, args);
+		SpringApplication.run(PlatziMarketApplication.class, args);
 	}
 
 }
