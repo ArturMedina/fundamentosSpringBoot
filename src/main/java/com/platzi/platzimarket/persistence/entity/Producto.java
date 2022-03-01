@@ -23,7 +23,7 @@ public class Producto {
     private Double precioVenta;
 
     @Column(name ="cantidad_stock")
-    private Integer catndidadStock;
+    private Integer cantidadStock;
 
     private Boolean estado;
 
@@ -71,12 +71,12 @@ public class Producto {
         this.precioVenta = precioVenta;
     }
 
-    public Integer getCatndidadStock() {
-        return catndidadStock;
+    public Integer getCantidadStock() {
+        return cantidadStock;
     }
 
     public void setCatndidadStock(Integer catndidadStock) {
-        this.catndidadStock = catndidadStock;
+        this.cantidadStock = catndidadStock;
     }
 
     public Boolean getEstado() {
